@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F3FA44AB2E63361F00D1A54E /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F3FA44AA2E63361F00D1A54E /* Config.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F3FA448E2E63332800D1A54E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		F3FA447B2E63332500D1A54E /* qcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FA448D2E63332800D1A54E /* qcurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qcurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FA44972E63332800D1A54E /* qcurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qcurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA44AA2E63361F00D1A54E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		F3FA44722E63332500D1A54E = {
 			isa = PBXGroup;
 			children = (
+				F3FA44AA2E63361F00D1A54E /* Config.xcconfig */,
 				F3FA447D2E63332500D1A54E /* qcurrency */,
 				F3FA44902E63332800D1A54E /* qcurrencyTests */,
 				F3FA449A2E63332800D1A54E /* qcurrencyUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FA44AB2E63361F00D1A54E /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 /* Begin XCBuildConfiguration section */
 		F3FA449F2E63332800D1A54E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FA44AA2E63361F00D1A54E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
